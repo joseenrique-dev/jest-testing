@@ -1,0 +1,14 @@
+{
+  "name": "cmder",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "index.js",
+  "author": "José Enrique López Obeso",
+  "scripts": {
+    "test": "jest"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.3.1"
+  }
+}
