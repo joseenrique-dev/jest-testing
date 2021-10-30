@@ -55,3 +55,5 @@ test('test Asyn/Await', async () => {
 
 afterEach(() => console.log('After each test'));
 afterAll(() => console.log('After all test.'));
+beforeEach(() => console.log('Before Each test'));
+beforeAll(() => console.log('Before All test'));
