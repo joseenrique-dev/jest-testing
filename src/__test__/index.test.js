@@ -1,5 +1,11 @@
 const randomString = require('../index');
 
-test('Test index random', () => {
-  expect(typeof randomString()).toBe('string');
+describe('Testing ramdong functionalities', () => {
+  test('Test index random', () => {
+    expect(typeof randomString()).toBe('string');
+  });
+
+  test('Check city', () => {
+    expect(randomString()).not.toMatch(/Lima/);
+  });
 });

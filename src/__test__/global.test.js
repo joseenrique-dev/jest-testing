@@ -53,7 +53,7 @@ test('test Asyn/Await', async () => {
   expect(str).toBe('olleH');
 });
 
-afterEach(() => console.log('After each test'));
-afterAll(() => console.log('After all test.'));
-beforeEach(() => console.log('Before Each test'));
-beforeAll(() => console.log('Before All test'));
+// afterEach(() => console.log('After each test'));
+// afterAll(() => console.log('After all test.'));
+// beforeEach(() => console.log('Before Each test'));
+// beforeAll(() => console.log('Before All test'));
